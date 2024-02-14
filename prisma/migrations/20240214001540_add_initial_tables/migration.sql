@@ -20,6 +20,7 @@ CREATE TABLE "BarberShop" (
 CREATE TABLE "Service" (
     "id" TEXT NOT NULL,
     "name" TEXT NOT NULL,
+    "imageURL" TEXT NOT NULL,
     "price" DECIMAL(10,2) NOT NULL,
     "barbershopId" TEXT NOT NULL,
     "description" TEXT NOT NULL,
